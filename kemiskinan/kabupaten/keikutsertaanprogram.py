@@ -38,3 +38,4 @@ for a in kabupaten:
         `jamsostek_bpjs_ketenagakerjaan`='"+jamsostek_bpjs_ketenagakerjaan+"', `asuransi_kesehatan_lainnya`='"+asuransi_kesehatan_lainnya+"', \
         `pkh`='"+pkh+"', `raskin`='"+raskin+"', `kur`='"+kur+"' WHERE id='"+a[0]+"' ")
     db.commit()
+    
