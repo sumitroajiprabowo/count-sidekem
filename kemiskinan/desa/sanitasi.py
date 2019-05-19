@@ -256,7 +256,7 @@ for a in desa:
     jenis_kloset_tdk_pakai = str(cur.fetchone()[0])
     """insert to sql"""
     cur.execute("UPDATE `statistik_sanitasi_desa` SET `jenis_kloset_leher_angsa`='"+jenis_kloset_leher_angsa+"', \
-        `jenis_kloset_plengsengan`='"+jenis_kloset_plengsengan+"', `jenis_kloset_cemplung/cubluk`='"+jenis_kloset_cemplungcubluk+"', \
+        `jenis_kloset_plengsengan`='"+jenis_kloset_plengsengan+"', `jenis_kloset_cemplung`='"+jenis_kloset_cemplungcubluk+"', \
         `jenis_kloset_tdk_pakai`='"+jenis_kloset_tdk_pakai+"' WHERE id='"+a[0]+"' ")
     db.commit()
 
