@@ -84,5 +84,5 @@ for a in kecamatan:
         `perahu`='"+perahu+"', `motor_tempel`='"+motor_tempel+"', `perahu_motor`='"+perahu_motor+"', \
         `kapal`='"+kapal+"', `lahan`='"+lahan+"', `rumah_ditempatlain`='"+rumah_ditempatlain+"', \
         `sapi`='"+sapi+"', `kerbau`='"+kerbau+"', `kuda`='"+kuda+"', \
-        `babi`='"+babi+"', `kambing/domba`='"+kambing+"' WHERE id='"+a[0]+"' ")
+        `babi`='"+babi+"', `kambing_domba`='"+kambing+"' WHERE id='"+a[0]+"' ")
     db.commit()
