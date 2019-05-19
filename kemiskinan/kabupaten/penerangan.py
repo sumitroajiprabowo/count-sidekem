@@ -38,5 +38,5 @@ for a in kabupaten:
     cur.execute("UPDATE `statistik_penerangan_kab` SET `listrik_pln`='"+listrik_pln+"', `listrik_non_pln`='"+listrik_non_pln+"', \
         `bukan_listrik`='"+bukan_listrik+"', \
         `daya_450watt`='"+daya_450watt+"', `daya_900watt`='"+daya_900watt+"', `daya_1300watt`='"+daya_1300watt+"',\
-        `daya_2200watt`='"+daya_2200watt+"', `daya_>2200watt`='"+daya_lebihdari2200watt+"', `tanpa_meteran`='"+tanpa_meteran+"' WHERE id='"+a[0]+"' ")
+        `daya_2200watt`='"+daya_2200watt+"', `daya_lebih2200watt`='"+daya_lebihdari2200watt+"', `tanpa_meteran`='"+tanpa_meteran+"' WHERE id='"+a[0]+"' ")
     db.commit()
