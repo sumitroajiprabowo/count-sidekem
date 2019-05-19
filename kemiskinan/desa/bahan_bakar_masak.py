@@ -34,7 +34,7 @@ for a in desa:
     bahan_bakar_masak_tdkmemasakdirumah = str(cur.fetchone()[0])
     """insert to sql"""
     cur.execute("UPDATE `statistik_bahanbakarmasak_desa` SET `bahan_bakar_masak_listrik`='"+bahan_bakar_masak_listrik+"', \
-        `bahan_bakar_masak_gas>3kg`='"+bahan_bakar_masak_gaslebih3kg+"', `bahan_bakar_masak_gas3kg`='"+bahan_bakar_masak_gas3kg+"', \
+        `bahan_bakar_masak_gaslebih3kg`='"+bahan_bakar_masak_gaslebih3kg+"', `bahan_bakar_masak_gas3kg`='"+bahan_bakar_masak_gas3kg+"', \
         `bahan_bakar_masak_biogas`='"+bahan_bakar_masak_biogas+"', `bahan_bakar_masak_minyaktanah`='"+bahan_bakar_masak_minyaktanah+"', \
         `bahan_bakar_masak_briket`='"+bahan_bakar_masak_briket+"',\
         `bahan_bakar_masak_arang`='"+bahan_bakar_masak_arang+"', `bahan_bakar_masak_kayubakar`='"+bahan_bakar_masak_kayubakar+"', \
